@@ -41,6 +41,10 @@
     color: rgba(17, 17, 17, 0.61);
     cursor: pointer;
 }
+
+.time-container .material-symbols-outlined:hover{
+    color: rgba(17, 17, 17);
+}
 .hashtags{
     display: flex;
     gap: 20px;

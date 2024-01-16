@@ -1,3 +1,7 @@
+.bookmark{
+    position: sticky;
+    top: 10px;
+}
 .total-time{
     color: #6047EC;
     font-weight: bold;
@@ -15,4 +19,10 @@
 }
 .bookmark-blogs h2{
     margin: 0;
+}
+.bookmark-title{
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
 }

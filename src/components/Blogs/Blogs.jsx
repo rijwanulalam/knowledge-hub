@@ -30,7 +30,7 @@ const handleBookmarkButton = (blog) => {
           <Blog key={blog.id} blog={blog} handleReadButton={handleReadButton} handleBookmarkButton={handleBookmarkButton}></Blog>
         ))}
       </div>
-      <div>
+      <div className='bookmark-container'>
         <Bookmark bookmark={bookmark} bookmarkBlogs={bookmarkBlogs}></Bookmark>
       </div>
     </div>
