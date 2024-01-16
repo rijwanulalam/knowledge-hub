@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Bookmark.css";
 
-const Bookmark = ({ bookmark }) => {
+const Bookmark = ({ bookmark, bookmarkBlogs }) => {
     // console.log(props.bookmark)
     let totalTime = 0;
     for(const time of bookmark){
@@ -12,6 +12,9 @@ const Bookmark = ({ bookmark }) => {
         <div className='bookmark-container'>
             <div className='total-time'>
                 <p>Spent time on read : {totalTime} min</p>
+            </div>
+            <div className='bookmark-blogs'>
+                <h2>Bookmarked Blogs : {bookmarkBlogs.length}</h2>
             </div>
         </div>
     );

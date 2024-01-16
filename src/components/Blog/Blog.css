@@ -32,6 +32,15 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+.time-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.time-container .material-symbols-outlined{
+    color: rgba(17, 17, 17, 0.61);
+    cursor: pointer;
+}
 .hashtags{
     display: flex;
     gap: 20px;

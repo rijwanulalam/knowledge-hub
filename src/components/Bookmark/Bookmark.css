@@ -5,4 +5,14 @@
     border: 1px solid #6047EC;
     border-radius: 8px;
     background-color: rgba(96, 71, 236, 0.1);
+    margin-bottom: 20px;
+}
+.bookmark-blogs{
+    font-weight: bold;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: rgba(96, 71, 236, 0.1);
+}
+.bookmark-blogs h2{
+    margin: 0;
 }
