@@ -4,6 +4,8 @@ import "./Blog.css";
 const Blog = (props) => {
     const {author, author_img, hashtags, posted_date, reading_time, title, cover} = props.blog;
 
+    const handleReadButton = props.handleReadButton;
+
     return (
         <div className='blog-container'>
             <img className='cover' src={cover} alt="" />
@@ -24,10 +26,10 @@ const Blog = (props) => {
             <h1>{title}</h1>
             <div className='hashtags'>
             {
-                hashtags.map(hashtag => <p>#{hashtag}</p>)
+                hashtags.map((hashtag, index) => <p key={index}>#{hashtag}</p>)
             }
             </div>
-            <p className='mark-btn'>Mark as read</p>
+            <p onClick={() => handleReadButton(props.blog)} className='mark-btn'>Mark as read</p>
             
         </div>
     );

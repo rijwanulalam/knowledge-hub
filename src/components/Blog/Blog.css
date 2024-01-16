@@ -32,16 +32,20 @@
     margin-top: 0;
     margin-bottom: 0;
 }
-.mark-btn{
-    color: rgb(79, 136, 223);
-    font-weight: bold;
-    text-decoration: underline;
-    cursor: pointer;
-}
 .hashtags{
     display: flex;
     gap: 20px;
 }
 .hashtags p{
     color: rgba(17, 17, 17, 0.61);
+    margin: 0;
+}
+.mark-btn{
+    color: rgba(79, 137, 223);
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.mark-btn:hover{
+    color: rgb(96, 71, 236);
 }
