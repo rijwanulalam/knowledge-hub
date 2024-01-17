@@ -58,6 +58,7 @@
     font-weight: bold;
     text-decoration: underline;
     cursor: pointer;
+    width: fit-content;
 }
 .mark-btn:hover{
     color: rgb(96, 71, 236);

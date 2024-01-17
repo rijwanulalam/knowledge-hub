@@ -1,5 +1,7 @@
 import React from "react";
 import "./Blog.css";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Blog = (props) => {
   const {
@@ -14,6 +16,13 @@ const Blog = (props) => {
 
   const handleReadButton = props.handleReadButton;
   const handleBookmarkButton = props.handleBookmarkButton;
+
+//   const notify = () => toast("Wow so easy!");
+
+//   const handleMultipleBtn = () => {
+//     handleBookmarkButton(props.blog);
+//     notify;
+//   }
 
   return (
     <div className="blog-container">
